@@ -42,7 +42,7 @@ fetch('https://api.github.com/users/lucasamaralgh/repos')
 
     //mostrando nome e descrição de cada diretorio pelo html
 
-    repGit.innerHTML = `<img height="180em" src="https://github-readme-stats.vercel.app/api?username=${data[0].name}&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/> <h2><b>Nome do Repositorio:</b> ${data[0].name}</h2> <h4>${data[0].description}</h4> <h4><b>Última atualização</b>: ${data[0].updated_at}</h4><br><a href="${data[0].html_url}" id = "userLink"><h4>Veja mais sobre</h4></a>`;
+    repGit.innerHTML = `<img height="180em" src="https://github-readme-stats.vercel.app/api?username=${data[0].name}&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/> <br> <br><h2><b>Nome do Repositorio:</b> ${data[1].name}</h2> <h4>${data[1].description}</h4> <h4><b>Última atualização</b>: ${data[1].updated_at}</h4><br><a href="${data[1].html_url}" id = "userLink"><h4>Veja mais sobre</h4></a>`;
 
 
 }
