@@ -1,0 +1,225 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-color: #121212;
+    font-family:calibri;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+.nav-link {
+    margin-top: 7px;
+    text-align: center;
+    float: center;
+    color:#03fac6;
+}
+
+.title {
+    text-align: center;
+    float: center;
+    color:#03fac6;
+
+}
+
+#gitperfil {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: center;
+    padding-top: 40px;
+
+}
+
+#userLink{
+
+    text-decoration: none;
+    color: white;
+}
+
+#userLink:hover{
+    color: rgb(255, 0, 191);
+}
+
+
+
+
+#gitfoto {
+    width: 300px;
+    height: 300px;
+}
+
+#bio {
+    padding:40px;
+    text-align: center;
+    color:#03fac6;
+}
+
+.gitRep {
+    padding:40px;
+    text-align: center;
+    color:#03fac6;
+}
+
+#gitRep {
+    text-align: center;
+    color:#03fac6;
+}
+
+#seguindo {
+    padding:40px;
+    text-align: center;
+    color:#03fac6;
+}
+
+#gitSeguindo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgAvatar {
+    height: 300px;
+    border: rgb(255, 255, 255);
+    border-radius: 180px;
+}
+
+
+.searchRepsArea{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.buttonForSearch {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#inputForSearch {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    
+}
+
+#search {
+
+    border: #121212;
+    border-radius: 10px;
+    width: 280px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#searchButton {
+    border: #121212;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.cardRepo{
+    margin: 12px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+#nomeRepo{
+    margin-left: 30px;
+    color: #03fac6;
+}
+#descRepo{
+    margin-left: 30px;
+    color: #03fac6;
+}
+#lingRepo{
+    margin-left: 30px;
+    color: #03fac6;
+    }
+
+#visitarRepo{
+    
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #03fac6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#authorRepo{
+    margin-left: 30px;
+    color: #03fac6;
+}
+
+#reposContainer{
+    
+    width: 100%;
+}
+
+#imgPesq {
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+   
+    #imgPesq{
+        width: 150px!important;
+        height: 150px!important;
+    }
+
+    img{
+        width: 150px!important;
+        height: 150px!important;
+    }
+
+ }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    margin-top: auto;
+    color:#03fac6;
+}
