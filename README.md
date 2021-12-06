@@ -1,2 +1,2 @@
 # ProjetoAPI-GitHub
-Projeto faculdade html, css e js com API do gitHub entregado.
+Projeto faculdade html, css e js, utilizando a API do gitHub.
